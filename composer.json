@@ -2,7 +2,6 @@
     "name": "webmaniabr/nfse",
     "type": "library",
     "license": "GPL-3.0-or-later",
-    "version": "2.4.1",
     "description": "PHP SDK da API de Nota Fiscal de Serviço da Webmania",
     "keywords": ["notafiscal", "api", "nfse", "nfe", "nota fiscal", "nfs-e", "nf-e", "webmaniabr"],
     "homepage": "https://webmaniabr.com/docs/rest-api-nfse/",
