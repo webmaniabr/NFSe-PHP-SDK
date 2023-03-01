@@ -8,7 +8,7 @@
     "homepage": "https://webmaniabr.com/docs/rest-api-nfse/",
     "prefer-stable": true,
     "require": {
-        "php": ">=5.2.0".
+        "php": ">=5.2.0",
         "guzzlehttp/guzzle": "^7.0"
     },
     "require-dev": {
