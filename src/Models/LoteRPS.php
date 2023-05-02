@@ -20,6 +20,13 @@ class LoteRPS implements DocumentForIssuance
     public string $urlNotificacao;
 
     /**
+     * Identificador único para criar NFSE
+     * Este serve também para burlar a validação de duplicidade
+     * @var string
+     */
+    public string $ID = '';
+
+    /**
      * Permite especificar a Data e Hora para agendar a emissão da Nota Fiscal.
      * @var DateTime
      * @see https://webmaniabr.com/docs/rest-api-nfse/#informacoes-nota-fiscal
@@ -38,6 +45,16 @@ class LoteRPS implements DocumentForIssuance
     public function getUrlNotificacao() : string
     {
         return $this->urlNotificacao;
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getID()
+    {
+        if (isset($this->ID)){
+            return $this->ID;
+        }
     }
 
     /**
