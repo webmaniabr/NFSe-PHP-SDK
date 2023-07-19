@@ -76,6 +76,9 @@ class Issue implements APIOperation
         if (!is_null($this->ForIssuance->getUrlNotificacao())) {
             $this->toSend->url_notificacao = $this->ForIssuance->getUrlNotificacao();
         }
+        if (!is_null($this->ForIssuance->getID())) {
+            $this->toSend->ID = $this->ForIssuance->getID();
+        }
         if (!is_null($this->ForIssuance->getAgendamento())) {
             $this->toSend->agendar = $this->ForIssuance->getAgendamento()->format('Y-m-d H:m:s');
         }

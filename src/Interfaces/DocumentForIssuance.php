@@ -14,6 +14,12 @@ interface DocumentForIssuance
     public function getUrlNotificacao();
 
     /**
+     * Retorna o ID único para criação da NFSe
+     * @return string|null
+     */
+    public function getID();
+
+    /**
      * Retorna a data/hora para agendamento de emissão.
      * @return DateTime|null
      */

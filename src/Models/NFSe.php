@@ -30,6 +30,13 @@ class NFSe extends DocumentoFiscal implements DocumentForIssuance
     public DateTime $agendamento;
 
     /**
+     * Identificador único para criar NFSE
+     * Este serve também para burlar a validação de duplicidade
+     * @var string
+     */
+    public string $ID = '';
+
+    /**
      * Identificador único da NFS-e. Para consulta e Cancelamento.
      * @var string
      */
@@ -50,6 +57,16 @@ class NFSe extends DocumentoFiscal implements DocumentForIssuance
     {
         if (isset($this->urlNotificacao)){
             return $this->urlNotificacao;
+        }
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getID()
+    {
+        if (isset($this->ID)){
+            return $this->ID;
         }
     }
 
