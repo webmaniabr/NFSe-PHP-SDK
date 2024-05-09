@@ -120,7 +120,8 @@ class Issue implements APIOperation
         }
         if (isset($Servico->issRetido) && $Servico->issRetido) {
             $rps->servico->iss_retido = 1;
-            if ($Servico->Intermediario->hasRequiredValues()) {
+			$rps->servico->responsavel_retencao_iss = 1;
+            if ($Servico->Intermediario->hasRequiredValues() ) {
                 $rps->servico->responsavel_retencao_iss = isset($Servico->Intermediario->responsavelIss) && $Servico->Intermediario->responsavelIss ? 2 : 1;
             }
         } else {
