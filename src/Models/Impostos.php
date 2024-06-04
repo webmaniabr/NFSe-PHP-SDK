@@ -15,39 +15,39 @@ class Impostos implements OptionalObjectParameter
 
     /**
      * Alíquota do ISS.
-     * @var float
+     * @var string
      */
-    public float $iss;
+    public string $iss;
 
     /**
      * Alíquota do PIS.
-     * @var float
+     * @var string
      */
-    public float $pis;
+    public string $pis;
     
     /**
      * Alíquota do COFINS.
-     * @var float
+     * @var string
      */
-    public float $cofins;
+    public string $cofins;
     
     /**
      * Alíquota do INSS.
-     * @var float
+     * @var string
      */
-    public float $inss;
+    public string $inss;
 
     /**
      * Alíquota do IR.
-     * @var float
+     * @var string
      */
-    public float $ir;
+    public string $ir;
 
     /**
      * Alíquota do CSLL.
-     * @var float
+     * @var string
      */
-    public float $csll;
+    public string $csll;
 
     /**
      * {@inheritDoc}
