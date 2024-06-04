@@ -1,5 +1,5 @@
 {
-    "name": "webmaniabr/nfse",
+    "name": "gcarneiro/wm-nfse",
     "type": "library",
     "license": "GPL-3.0-or-later",
     "description": "PHP SDK da API de Nota Fiscal de Serviço da Webmania",
@@ -16,7 +16,7 @@
     },
     "authors": [
         {
-            "name": "Equipe Webmania"
+            "name": "BG Tecnologia"
         }
     ],
     "autoload": {
