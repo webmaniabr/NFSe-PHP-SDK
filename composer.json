@@ -10,5 +10,6 @@
         "psr-4": {
             "Webmaniabr\\Nfse\\": "src/"
         }
-    }
+    },
+	"license": "MIT"
 }
