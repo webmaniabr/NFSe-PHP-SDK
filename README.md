@@ -12,7 +12,7 @@ Através do emissor de Nota Fiscal de Serviço da Webmania®, você conta com a 
 
 ## Requisitos
 
-- Contrate um dos planos de NFS-e da Webmania® para obter suas credenciais de acesso: [Conheça os Planos (Teste 30 dias grátis!)](https://webmaniabr.com/nota-fiscal-eletronica/#plans-section).
+- Contrate um dos planos de NFS-e da Webmania® para obter suas credenciais de acesso: [Conheça os Planos](https://webmaniabr.com/nota-fiscal-eletronica/#plans-section).
 - Obtenha o [Composer](https://getcomposer.org/) e instale o pacote da SDK e suas dependências.
 - Utilize as ferramentas disponibilizadas pela SDK: [Veja Exemplos de Uso](https://github.com/webmaniabr/NFSe-PHP-SDK/tree/main/sample)
 
